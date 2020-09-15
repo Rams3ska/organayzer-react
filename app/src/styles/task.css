@@ -1,0 +1,99 @@
+@font-face
+{
+    font-family: "Montserrat-Medium";
+    src: url('../fonts/MontserratAlternates-Medium.ttf');
+}
+
+.task::-webkit-scrollbar { display: none; }
+.task
+{
+    position: relative;
+
+    width: 404px;
+    /* height: 99px; */
+    min-width: 404px;
+    /* min-height: 99px; */
+
+    overflow: hidden;
+
+    margin-bottom: 9px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+
+    padding: 0px 7px;
+    box-sizing: border-box;
+}
+
+.task-name
+{
+    position: relative;
+
+    margin-top: 8px;
+    height: 20px;
+
+    overflow: hidden;
+
+    /* font-family: "Montserrat-Medium"; */
+
+    font-size: 14px;
+}
+
+.task-description
+{
+    position: relative;
+
+    max-height: 46px;
+
+    overflow: hidden;
+
+    font-size: 12px;
+    color: #555555;
+}
+
+.task-bottom
+{
+    position: relative;
+
+    height: 14px;
+
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.task-progress-line
+{
+    position: relative;
+
+    height: 3px;
+    width: 404px;
+    left: -7px;
+
+    border-radius: 0px 0px 3px 3px;
+
+    background-color: #A3F1D0;
+}
+
+.task-timer, .task-progress
+{
+    position: relative;
+
+    display: flex;
+    align-items: center;
+
+    font-size: 9px;
+}
+
+.progress-icon, .timer-icon
+{
+    position: relative;
+
+    width: 11px;
+    height: 11px;
+
+    margin-left: 4px;
+}
+
+.timer-icon { margin-right: 4px !important; margin-left: 0px; }

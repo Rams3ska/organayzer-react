@@ -1,0 +1,11 @@
+{
+  "name": "organayzer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Max Kazakov <responsetie@mail.ru>",
+  "license": "ISC"
+}
