@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Task one",
+        "description": "With random description",
+        "progress": {
+            "current": 0,
+            "max": 1
+        }
+    },
+    {
+        "name": "Task Two",
+        "description": "Layers. Assets. Page 1. bottom-menu. task-box. task-deployed. Task Name. Task Description. Point Desk. task-bg. task-bg-1. task. Task Name. task-bg. bg. Design. Prototype. Code. 12. 178. 390. 40. 0. Constra..",
+        "progress": {
+            "current": 0,
+            "max": 1
+        }
+    },
+    {
+        "name": "Задача номер три. Ебать его в сраку. Не ну а че. Задача как задача.",
+        "description": "Ага",
+        "progress": {
+            "current": 0,
+            "max": 1
+        }
+    },
+    {
+        "name": "Постирать носки",
+        "description": "",
+        "progress": {
+            "current": 0,
+            "max": 3
+        }
+    },
+    {
+        "name": "А?",
+        "description": "Б!",
+        "progress": {
+            "current": 0,
+            "max": 1
+        }
+    }
+]

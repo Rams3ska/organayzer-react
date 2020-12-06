@@ -24,6 +24,9 @@
 
     padding: 0px 7px;
     box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
 }
 
 .task-name
@@ -57,6 +60,8 @@
     position: relative;
 
     height: 14px;
+
+    margin: 3px 0px 3px 0px;
 
     display: flex;
     align-content: center;
@@ -94,6 +99,12 @@
     height: 11px;
 
     margin-left: 4px;
+}
+
+.timer-data
+{
+    margin-top: 1px;
+    font-size: 10px;
 }
 
 .timer-icon { margin-right: 4px !important; margin-left: 0px; }
